@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Basic HTML/Tailwind starter</title>
+    <meta name="description" content="Basic HTML/Tailwind starter" />
+    <meta name="author" content="Daily Dev Tips" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    
+    <header class="text-gray-600 body-font" id="header">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+        <a href="/" class="mr-5 cursor-pointer text-gray-50">Home</a>
+          <a href="#products" class="mr-5 cursor-pointer text-gray-50">Products</a>
+        
+        </nav>
+        <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-100 lg:items-center lg:justify-center mb-4 md:mb-0">
+          <span class="ml-3 text-3xl">Coffee 4U</span>
+        </a>
+        <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+          <div class="ec-cart-widget"></div>
+          <div>
+          <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?64746048&data_platform=code&data_date=2022-04-08" charset="utf-8"></script>
+          <script type="text/javascript">Ecwid.init();</script>
+          </div>
+        </div>
+      </div>
+    </header>
+   
+<section class="bg-gray-50">
+  <div class="flex flex-col items-center justify-center px-4  mx-auto sm:max-w-xl md:max-w-full lg:pt-14 md:px-0">
+    <div class="flex flex-col items-center max-w-2xl md:px-8">
+      <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <h2 class="max-w-lg mb-6 font-sans text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          <span class="relative inline-block">
+            <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+              <defs>
+                <pattern id="192913ce-1f29-4abd-b545-0fbccfd2b0ec" x="0" y="0" width=".135" height=".30">
+                  <circle cx="1" cy="1" r=".7"></circle>
+                </pattern>
+              </defs>
+              <rect fill="url(#192913ce-1f29-4abd-b545-0fbccfd2b0ec)" width="52" height="24"></rect>
+            </svg>
+            Quality Coffee 4U delivered to your Door, online now
+        </h2>
+        <p class="text-base text-gray-700 md:text-md">
+          Everything we do is motivated by the heart, the body, and the spirit. Our objective is to supply excellent coffee that is responsibly sourced and hand-picked.
+        </p>
+        <div class="flex justify-center mt-5">
+          <button  class="inline-flex text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none rounded text-lg"><a href="#products">shop now</a></button>
+          <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"> <a href="tel:8683982499" class="title-font font-medium">contact</a></button>
+        </div>
+      </div>
+    </div>
+    <img src="./img/logo.png" class="w-full max-w-screen-sm mx-auto rounded shadow-2xl md:w-auto lg:max-w-screen-md" alt="" />
+  </div>
+</section>
+
+    <div id="my-store-64746048"></div>
+    <div id="products">
+    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?64746048&data_platform=code&data_date=2022-04-05" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-64746048");</script>
+    </div>
+
+  </body>
+</html>
